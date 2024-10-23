@@ -84,6 +84,31 @@ Adicione as seguintes dependências no seu arquivo **pom.xml**:
 * [https://mvnrepository.com/artifact/faker/faker/0.3.2](https://mvnrepository.com/artifact/com.github.javafaker/javafaker/1.0.2)
 * https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1
 
+
+Vamos adicionar o driver do Postgres como dependência:
+
+```
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.3</version>
+		</dependency>
+
+	</dependencies>
+```
+
+Seu arquivo POM.XML deve ficar assim:
+
+![image](https://github.com/user-attachments/assets/5a61c1d0-1045-4d26-94ce-c48b2f7e011e)
+
+Atualize o projeto (tutorial acima). Após atualizar, uma nova opção no Eclipse será exibida:
+
+![image](https://github.com/user-attachments/assets/d0ed6e1a-39e8-4c67-889a-5709f03bbb01)
+
+
 # Modelagem ER
 
 Crie no seu projeto Java as seguintes entidades com os seus respectivos atributos:
